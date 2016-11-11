@@ -1,0 +1,27 @@
+#include<iostream>
+#include <cmath>
+double f(double x){
+double() u=1
+  return(std::exp(x)-std::cos(x)-u)
+double bissec(double e){
+double begin=0;
+double f_0=f(begin);
+double b=0;
+double end=1;
+double f_1=f(end);
+while(std::fabs(f_1-f_0)>e){
+double new_x=std::((end-begin)/2);
+double new_f=f(new_x);
+if (new_f*f_0<0){
+end=new_x,f_1=new_f;}
+elif(new_f*f_1<0){
+begin=new_x,f_0=new_f;}
+if(new_f*f_0==0){
+return new_x;}
+else {return(begin)}
+}
+return(begin)}
+int main(){
+std::cout<<bissec(0.001);
+return 0;
+
