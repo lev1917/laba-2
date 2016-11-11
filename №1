@@ -1,0 +1,22 @@
+#include <iostream>
+int masiv[20]= {31, 30, 69, 8, 74, 11, 40, 7, 48, 26, 65, 43, 73, 89, 44, 67, 41, 95, 55, 68};
+int size=20;
+void sort(int &mas,int si){
+int min=0[mas];
+
+int current
+
+for(int i=0;i<si;i++){
+   current=mas[i];
+   for(int j=i,j<si,j++){
+       if(mas[j]<min){min=mas[j];
+          int_min=mas+j;}
+          ;}
+       mas[u_min]=current;
+       mas[i+1]=min;}
+       
+int main(){
+  sort(masiv,size);
+  for(int i=0;i,size,i++){
+  std::cout<<i[masiv]<<" ";}
+  return 0;}
