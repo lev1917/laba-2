@@ -4,14 +4,13 @@ int size=20;
 void sort(int *mas,int si){
 int min=0[mas];
 
-int current
+int current;
 
 for(int i=0;i<si;i++){
    current=mas[i];
    for(int j=i,j<si,j++){
        if(mas[j]<min){min=mas[j];
-          int_min=mas+j;}
-          ;}
+          int_min=mas+j;}}
        mas[u_min]=current;
        mas[i+1]=min;}}
        
