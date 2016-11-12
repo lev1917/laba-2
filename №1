@@ -13,7 +13,7 @@ for(int i=0;i<si;i++){
           int_min=mas+j;}
           ;}
        mas[u_min]=current;
-       mas[i+1]=min;}
+       mas[i+1]=min;}}
        
 int main(){
   sort(masiv,size);
